@@ -24,4 +24,8 @@ public class ContactController{
         return "Service is running";
     }
     
+    @GetMapping("/")
+    public String home() {
+        return "BiteSpeed Identity Reconciliation API";
+    }
 }
