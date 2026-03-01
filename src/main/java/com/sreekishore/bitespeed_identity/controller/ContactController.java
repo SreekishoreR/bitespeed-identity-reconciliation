@@ -18,4 +18,10 @@ public class ContactController{
     public ResponseEntity<IdentifyResponse> identify(@RequestBody IdentifyRequest request){
         return ResponseEntity.ok(contactService.identify(request));
     }
+    
+    @GetMapping("/health")
+    public String health(){
+        return "Service is running";
+    }
+    
 }
