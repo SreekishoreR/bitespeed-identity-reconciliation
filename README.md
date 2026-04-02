@@ -2,7 +2,7 @@
 A backend task for BiteSpeed that consolidates customer identities across multiple purchases by reconciling contact information based on email and phone number.
 
 # About:
-- This service implements the **Identity Reconciliation** feature for BiteSpeed, where,
+- This service implements the **Identity Reconciliation** feature where,
 - When a customer makes multiple purchases using different contact information, this service helps identify and link those purchases to the same customer.
 
 # Core Functionality:
@@ -51,8 +51,8 @@ Reconciles customer identities based on provided contact information.
 
 # Local Setup:
 1. Clone Repo;
-   - git clone https://github.com/SreekishoreR/bitespeed-identity-reconciliation.git
-   - cd bitespeed-identity-reconciliation
+   - git clone https://github.com/SreekishoreR/Identity-Reconciliation-Service.git
+   - cd Identity-Reconciliation-Service
 2. Set Environment Variables;
    - DB_URL=jdbc:postgresql://localhost:5432/bitespeed
    - DB_USERNAME=postgres
