@@ -1,4 +1,4 @@
-# BiteSpeed Identity Reconciliation Service
+# Identity Reconciliation Service
 A backend task for BiteSpeed that consolidates customer identities across multiple purchases by reconciling contact information based on email and phone number.
 
 # About:
